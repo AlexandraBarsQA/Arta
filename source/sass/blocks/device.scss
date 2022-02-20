@@ -1,0 +1,31 @@
+.device {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.device h2 {
+  font-family: "GOST_BU";
+  font-size: 42px;
+  font-weight: 100;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 37px;
+  padding-top: 36px;
+  word-wrap: break-word;
+}
+
+@include _578 {
+  .device h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+

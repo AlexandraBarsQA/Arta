@@ -1,0 +1,118 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@include _918 {
+  .sidebar {
+    padding-left: 210px;
+    margin-bottom: 30px;
+  }
+}
+
+@include _778 {
+  .sidebar {
+    padding-left: 150px;
+  }
+}
+
+@include _578 {
+  .sidebar {
+    width: 250px;
+    padding-left: 40px;
+    margin: 0 auto;
+  }
+}
+
+.sidebar ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  position: relative;
+  margin-bottom: 38px;
+  list-style-type: none;
+}
+
+.sidebar a {
+  font-family: "CadillacSansA-Book";
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sidebar hr {
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 45px;
+  top: 5px;
+  left: -30px;
+  transform: rotate(-25deg);
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.sidebar span {
+  display: block;
+  font-family: "CadillacSansA-Light";
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: none;
+}
+
+.sidebar h4 {
+  font-family: "CadillacSansA-Book";
+  font-size: 20px;
+  line-height: 25px;
+  color: #392aa0;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar h4::after {
+  display: block;
+  content: "";
+  width: 105px;
+  height: 5px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  background-color: #392aa0;
+}
+
+.sidebar--project {
+  margin-top: 120px;
+}
+
+@include _918 {
+  .sidebar--project {
+    margin-top: 0;
+  }
+}
+
+.sidebar__expertise {
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+.sidebar a[href] {
+  &:hover,
+  &:focus {
+    color: #a451f7;
+    outline: none;
+  }
+
+  &:active {
+    color: #6d2cad;
+  }
+}

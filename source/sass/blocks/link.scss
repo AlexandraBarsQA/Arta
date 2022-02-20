@@ -1,0 +1,15 @@
+.link {
+  color: #cc99ff;
+}
+
+.link {
+  &:hover,
+  &:focus {
+    color: #a451f7;
+    outline: none;
+  }
+
+  &:active {
+    color: #6d2cad;
+  }
+}

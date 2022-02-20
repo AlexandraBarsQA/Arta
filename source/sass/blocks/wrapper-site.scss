@@ -1,0 +1,54 @@
+.wrapper-site {
+  width: 1140px;
+  padding-left: 160px;
+  padding-right: 160px;
+  margin: 0 auto;
+}
+
+@include _1479 {
+  .wrapper-site {
+    width: 940px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@include _1158 {
+  .wrapper-site {
+    width: 780px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@include _918 {
+  .wrapper-site {
+    width: 680px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@include _778 {
+  .wrapper-site {
+    width: 480px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@include _578 {
+  .wrapper-site {
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include _458 {
+  .wrapper-site {
+    width: 280px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
